@@ -14,7 +14,7 @@ void main() {
             ),
             Text('Kem',
                 style: TextStyle(
-                  fontFamily: '',
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,

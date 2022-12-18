@@ -22,6 +22,10 @@ flutter:
 
   assets:
     - images/kem.jpg
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
 
 
 
