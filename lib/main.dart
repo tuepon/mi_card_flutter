@@ -22,7 +22,7 @@ void main() {
               ),
             ),
             Text(
-              'Web Developer',
+              'Tôi làm bánh',
               style: TextStyle(
                 fontFamily: 'Source Sans Pro',
                 color: Colors.teal.shade100,
@@ -30,7 +30,29 @@ void main() {
                 letterSpacing: 2.5,
                 fontWeight: FontWeight.bold,
               ),
-            )
+            ),
+            Container(
+              color: Colors.white,
+              child: Row(
+                children: <Widget>[
+                  Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Text(
+                    '+84 012 345 678',
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         )),
       ),
